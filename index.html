@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Agence de voyage</title>
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>V</span>oyage</a>
+
+        <nav class="navbar">
+            <a href="#home">accueil</a>
+            <a href="#book">reservez</a>
+            <a href="#packages">paquets</a>
+            <a href="#services">services</a>
+            <a href="#gallery">galleries</a>
+            <a href="#review">temoignages</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Chercher ici...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>connexion</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Souviens-toi de moi</label>
+            <p>mot de passe oublié? <a href="#">Cliquez ici</a></p>
+            <p>je n'ai pas de compte? <a href="#">S'inscrire maintenant</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>l'aventure vaut la peine</h3>
+            <p>découvrez de nouveaux endroits avec nous, l'aventure vous attend</p>
+            <a href="#" class="btn">découvrir plus</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>é</span>
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>e</span>
+            <span>z</span>
+            <span class="space"></span>
+            <span>i</span>
+            <span>c</span>
+            <span>i</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/book-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>où aller</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>combien</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrivées</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>en quittant</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Reserve maintenant">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>q</span>
+            <span>u</span>
+            <span>e</span>
+            <span>t</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                    <p>Mumbai (anciennement Bombay) est une ville densément peuplée qui se trouve sur la côte ouest de
+                        l'Inde. Ce centre financier est la plus grande ville du pays. Sur le front de mer du port de
+                        Mumbai, la Porte de l'Inde est une arche en pierre emblématique qui a été construite en 1924,
+                        sous le Raj britannique. Au large, l'île voisine d'Éléphanta comporte des temples anciens
+                        creusés dans la roche et dédiés au dieu hindou Shiva. La ville est également célèbre en tant que
+                        centre de l'industrie cinématographique du pays avec Bollywood.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 300.000 F - <span>500.000 F</span> CFA </div>
+                    <a href="#" class="btn">Réservez maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                    <p>Hawaii, un État américain, est un archipel volcanique isolé dans le Pacifique central. Ses îles
+                        sont réputées pour leurs paysages accidentés composés de falaises, de chutes d'eau, de forêt
+                        tropicale et de plages dont le sable arbore des teintes dorées, rouges, noires, voire vertes.
+                        Des 6 plus grandes îles, O'ahu accueille la plus grande ville, qui est également la capitale :
+                        Honolulu, où se situent la plage de Waikiki, en forme de croissant de lune, et les mémoriaux de
+                        la Seconde Guerre mondiale de Pearl Harbor.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 250.000 F - <span>350.00 F</span> CFA</div>
+                    <a href="#" class="btn">Réservez maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                    <p>Sydney, capitale de la Nouvelle-Galles du Sud et l'une des plus grandes villes d'Australie, est
+                        renommée pour son opéra situé dans le port, avec son design distinctif en forme de voiles. Le
+                        vaste Darling Harbour et le plus petit port de Circular Quay sont des pôles majeurs de la vie au
+                        bord de l'eau, à proximité du Harbour Bridge et des jardins botaniques royaux. La plate-forme
+                        extérieure de Sydney Tower, le Skywalk, offre une vue à 360 degrés sur la ville et ses
+                        banlieues.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 290.000 F - <span>520.000 F</span> CFA</div>
+                    <a href="#" class="btn">Réservez maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                    <p>Paris, capitale de la France, est une grande ville européenne et un centre mondial de l'art, de
+                        la mode, de la gastronomie et de la culture. Son paysage urbain du XIXe siècle est traversé par
+                        de larges boulevards et la Seine. Outre les monuments comme la tour Eiffel et la cathédrale
+                        gothique Notre-Dame du XIIe siècle, la ville est réputée pour ses cafés et ses boutiques de luxe
+                        bordant la rue du Faubourg-Saint-Honoré.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 340.000 F - <span>720.000 F</span> CFA</div>
+                    <a href="#" class="btn">Réservez maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                    <p>Au Japon, la partie orientale de la préfecture de Tokyo est divisée en 23 arrondissements
+                        spéciaux, plus généralement désignés comme les 23 arrondissements. Autrefois, ils formaient la
+                        ville de Tokyo mais, depuis 1943, celle-ci n'existe plus en tant qu'entité politique ou
+                        administrative en soi.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 490.000 F - <span>620.000 F</span> CFA</div>
+                    <a href="#" class="btn">Réservez maintenant</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> eypte </h3>
+                    <p>L'Égypte est un pont entre l'Afrique du Nord-Est et le Moyen-Orient et son histoire remonte à
+                        l'époque des pharaons. Des monuments millénaires bordent les berges de la fertile vallée du Nil,
+                        notamment le sphinx et les pyramides colossales de Gizeh. La ville de Louxor abrite le temple de
+                        Karnak et ses hiéroglyphes, ainsi que les tombeaux de la vallée des rois. Le Caire, la capitale,
+                        regorge de sites ottomans, comme la mosquée Mohammed Ali ou le musée égyptien et ses trésors
+                        d'antiquités. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> 290.000 F - <span>410.000 F</span> CFA</div>
+                    <a href="#" class="btn">Réservez maintenant</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>hôtels abordables</h3>
+                <p>Nous avons trouvé votre établissement particulièrement agréable, avec ses petites maisons de 4
+                    chambres, son joli parc arboré et fleuri, sa grande piscine, sa terrasse pour le petit déjeuner...
+                    Le confort des chambres est parfait. L'hôtel est idéalement placé pour découvrir toutes les beautés
+                    et les richesses de Belle-Ile. </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Nourriture et boissons</h3>
+                <p>Un très bon restaurant au cœur de la ville. Le risotto était a tomber par terre. Les bouchées de porc
+                    étaient un peu sèches. Très bons desserts et service impeccable!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>guide de sécurité</h3>
+                <p>Certains ont peur de voyager, de franchir le pas à cause d’une peur au niveau de la sécurité. J’ai
+                    notamment un ami comme cela. Qui n’a pas entendu cette phrase “mais c’est dangereux là-bas !” </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>autour du monde</h3>
+                <p>L'accueil est chaleureux, ouvert et bienveillant, sans chichis, c'est
+                    très appréciable ! Pour résumer, c'est une bulle de bien-être calme et reposant, dont l'ambiance est
+                    proche d'une maison d'hôtes. Nous sommes ravis de notre séjour de quatre jours, et nous reviendrons
+                    certainement !</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>voyage le plus rapide</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto tempore quis culpa ducimus
+                    accusamus eaque harum atque libero doloribus, repudiandae velit. In sint asperiores odio aspernatur
+                    vitae velit dolorum atque!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>aventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, debitis distinctio. Quis nostrum
+                    fuga neque accusantium aliquam reprehenderit ad cum adipisci in commodi recusandae praesentium
+                    eveniet sed sint, corporis rem.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>i</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>t</span>
+            <span>é</span>
+            <span>m</span>
+            <span>o</span>
+            <span>i</span>
+            <span>g</span>
+            <span>n</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic1.png" alt="">
+                        <h3>Lorant Thosme</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
+                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
+                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic2.png" alt="">
+                        <h3>Paul Martin</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
+                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
+                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic3.png" alt="">
+                        <h3>Cirile Mike</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
+                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
+                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic4.png" alt="">
+                        <h3>Migos Tom</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt
+                            fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias
+                            consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="nom">
+                    <input type="email" placeholder="Entrer votre email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="téléphone">
+                    <input type="text" placeholder="motif">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="envoyer le message">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>à propos de nous</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est
+                    accusantium voluptas enim nemo facilis sit debitis.</p>
+            </div>
+            <div class="box">
+                <h3>succursales</h3>
+                <a href="#">maradi</a>
+                <a href="#">dosso</a>
+                <a href="#">tillaberi</a>
+                <a href="#">agadez</a>
+                <a href="#">tahoua</a>
+                <a href="#">diffa</a>
+            </div>
+            <div class="box">
+                <h3>Liens rapides</h3>
+                <a href="#">accueil</a>
+                <a href="#">reservasion</a>
+                <a href="#">paquets</a>
+                <a href="#">services</a>
+                <a href="#">galleries</a>
+                <a href="#">témoignages</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>Suivez nous</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> créé par<span> mr adamou </span> | tous les droits sont réservés! </h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
